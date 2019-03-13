@@ -13,3 +13,22 @@
   color: white;
 }
 
+path.draw-animate {
+  stroke-dasharray: 250;
+  animation: draw 1.5s cubic-bezier(0, 0.23, 1, .1 );
+}
+
+@keyframes draw {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: 250;
+  }
+  30% {
+    opacity: 10;
+    stroke-dashoffset: 250;
+  }
+  100% {
+    opacity: 10;
+    stroke-dashoffset: 0;
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import '../../style/summary.css';
 
 export class Summary extends React.Component {
 
@@ -25,7 +26,7 @@ export class Summary extends React.Component {
                 }
                 let sentences = data.sentences.map((sentence, key) => {
                     return (
-                      <p key={key} id={key}>
+                      <p key={key} className="sentence">
                           {sentence}
                       </p>
                     );
