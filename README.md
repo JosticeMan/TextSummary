@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Note
+
+<b> If you would like to demo this web app, please acquire a API key at https://rapidapi.com/aylien/api/text-analysis/pricing </b> <br />
+To prevent unnecessary charges to my card, I've disabled the API key I used to demo this app. 
+
 ## Sample Responses
 
 Here is a sample response for the link (https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js):
