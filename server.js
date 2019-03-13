@@ -10,7 +10,16 @@ var express = require('express');
 var unirest = require('unirest');
 
 var app = express();
-const apiKey = "7a9a8dd817mshe07f2c506c8d832p1ff971jsnb0ff5652a428";
+
+/**
+ * REPLACE THE EMPTY STRING FOR apiKey HERE TO DEMO THE WEB APP
+ * @type {string)
+ */
+const apiKey = "";
+/**
+ * REPLACE THE EMPTY STRING FOR apiKey HERE TO DEMO THE WEB APP
+ * @type {string)
+ */
 
 app.get('/process', (req, res) => {
     var requrl = req.header('url');
