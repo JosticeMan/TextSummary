@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Note
 
 <b> If you would like to demo this web app, please acquire a API key at https://rapidapi.com/aylien/api/text-analysis/pricing </b> <br />
+Head to /src/server.js and input your API key there. <br />
 To prevent unnecessary charges to my card, I've disabled the API key I used to demo this app. 
 
 ## Sample Responses
