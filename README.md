@@ -3,6 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Here is a sample response for the link (https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js):
 ![Capture](https://user-images.githubusercontent.com/25600013/54319693-cef96900-45c0-11e9-83df-b997d01260b6.PNG)
 
+Somewhat styled view for the link (https://www.usatoday.com/story/life/2019/03/13/lori-loughlin-college-admission-court-appearance-los-angeles/3150366002/):
+![Capture](https://user-images.githubusercontent.com/25600013/54320918-1e419880-45c5-11e9-8b76-a6270ee5b6d3.PNG)
+
 ## Available Scripts
 
 In the project directory, you can run:
