@@ -12,13 +12,10 @@ Somewhat styled view for the link (https://www.usatoday.com/story/life/2019/03/1
 
 In the project directory, you can run:
 
-<---------------------------------------------------->
 ### `npm run dev`
 
 <b> Custom edit made by Justin Yau. </b> <br />
 Runs the app in the development mode and starts the ExpressJS backend server. 
-
-<---------------------------------------------------->
 
 ### `npm start`
 
