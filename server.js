@@ -6,23 +6,25 @@
  * @type ExpressJS Backend Server that makes requests to Text Analysis API and returns the response
  * @author Justin Yau
  */
-const express = require('express');
+var express = require('express');
 var unirest = require('unirest');
 
-const app = express();
+var app = express();
 const apiKey = "7a9a8dd817mshe07f2c506c8d832p1ff971jsnb0ff5652a428";
 
-app.get('/summary/', (req, res) => {
-    unirest.get("https://aylien-text.p.rapidapi.com/summarize?url=".concat(req.url))
-        .header("X-RapidAPI-Key", apiKey)
-        .end(function (result) {
-            console.log(result.status, result.headers, result.body);
-            if(result.status == "200") {
-                res.json(result.body);
-            } else {
-                res.json({responseCode: result.status});
-            }
-    });
+app.get('/process', (req, res) => {
+    var requrl = req.header('url');
+    if(requrl != null) {
+        var curl = requrl.replace(":", "%3A").replace("/", "%2F");
+        unirest.get("https://aylien-text.p.rapidapi.com/summarize?url=".concat(curl))
+            .header("X-RapidAPI-Key", apiKey)
+            .end(function (result) {
+                console.log(result.status, result.headers, result.body);
+                res.status(result.status).json(result.body);
+            });
+    } else {
+        res.json({status: -1});
+    }
 });
 
 const port = 5000;
