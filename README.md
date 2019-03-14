@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Background
 
-This is my first attempt at making a full stack web app with a ReactJS front-end and ExpressJS backend. <br />
+This is my first attempt at making a web app with a ReactJS front-end and ExpressJS backend. <br />
 Since I had no data to return for my ExpressJS, I used information provided by Text-Analysis API. 
 
 ## Note
